@@ -14,6 +14,10 @@ app.post("/api/data", (req, res) => {
   // You can access the data sent in the request with req.body
 });
 
+app.get("/api/hello-world", (req, res) => {
+  res.json({ greeting: "Hello, world!" });
+});
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
