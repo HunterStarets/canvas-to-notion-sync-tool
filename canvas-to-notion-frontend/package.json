@@ -1,6 +1,6 @@
 {
   "name": "canvas-to-notion-frontend",
-  "homepage": "http://hunterstarets.github.io/CanvasToNotion",
+  "homepage": "http://hunterstarets.github.io/canvastonotion",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
